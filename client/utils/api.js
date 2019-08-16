@@ -10,7 +10,6 @@ const defaultOptions = {
         Accept: 'application/json',
         'Content-Type': 'application/json',
         'x-requested-with': 'XMLHttpRequest',
-        cookie: process.browser ? document.cookie : ''
     },
 };
 

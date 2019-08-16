@@ -35,7 +35,6 @@ module.exports = {
      */
     async getLocalConfig(ctx, apiParams) {
         const { name } = apiParams;
-        console.log("ctx.cookies >>>", ctx.cookies);
         const result = global.config.local[name];
         return setCtxSuccessBody(ctx, result);
     },
