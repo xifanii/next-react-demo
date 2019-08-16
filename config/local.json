@@ -1,0 +1,14 @@
+{
+    "track": {
+        "track_data_length": 16,
+        "track_url": "https://collector.wmzy.com/log-collect/app-behavior-upload"
+      },
+      "articleTypes": {
+        "0": "高考头条",
+        "1": "政策速递",
+        "2": "升学路径",
+        "3": "留学攻略",
+        "4": "海外留学",
+        "5": "数据快报"
+      }
+}

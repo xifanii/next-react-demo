@@ -1,0 +1,51 @@
+{
+    "api": {
+        "restUserCenter": "http://192.168.150.19:22355",
+        "restUserData": "http://192.168.150.19:22399",
+        "restPay": "http://192.168.150.19:22366",
+        "restItem": "http://192.168.150.19:22367",
+        "restOpen": "http://192.168.150.19:22388",
+        "restDepartment": "http://192.168.150.19:22345",
+        "restCeping": "http://192.168.150.19:9089",
+        "restCommunity": "http://192.168.150.19:22411",
+        "restAds": "http://192.168.150.19:22333",
+        "restMsg": "http://192.168.150.19:22422",
+        "restCharacter": "http://192.168.150.19:22377",
+        "restMisc": "http://192.168.150.19:22311",
+        "restCoupon": "http://192.168.150.19:22466",
+        "restOrder": "http://192.168.150.19:22477",
+        "restNews": "http://192.168.150.19:33200",
+        "restPayCenter": "http://192.168.150.19:22500"
+    },
+    "requestTimeout": 3000,
+    "imageResourcePath": "/static/images",
+    "uiStaticResourcePath": "/ui-static/",
+    "configResourcePath": "https://storage-node.ipin.com/ui-comm/config/test/",
+    "configRefreshMinuteRule": [],
+    "cdnConfigList": [
+        "dynamicText",
+        "channels",
+        "wps",
+        "settledInSchools",
+        "expertAuditing",
+        "studyAbroad",
+        "studyPath",
+        "serverConfig",
+        "xiaoI"
+    ],
+    "log": {
+        "level": "debug",
+        "dir": "log",
+        "trace_dir": "log"
+    },
+    "iwaf": {
+        "open": false,
+        "enable_debug": true,
+        "forbid_automation_tools": true,
+        "allow_from_weixin": false,
+        "client_cookie_name": "dR9BixLC1sIxD0tw",
+        "send_cookie_name": "wagHohOxbLyHYrA",
+        "mixNum": true
+    },
+    "port": 6098
+}

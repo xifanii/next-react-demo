@@ -1,0 +1,24 @@
+{
+  "presets": [
+    "next/babel",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-decorators",
+      {
+        "legacy": true
+      }
+    ],
+    "@babel/plugin-proposal-export-default-from",
+    [
+      "module-resolver",
+      {
+        "alias": {
+          "@":"./client",
+          "@config":"./config",
+          "@server":"./server",
+        }
+      }
+    ],
+  ]
+}
