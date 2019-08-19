@@ -8,6 +8,30 @@
 
 next.js+rematch.js+koa2 🎉🎉🎉
 
+## 框架特点
+
+1. 自动切换服务端渲染&客户端渲染
+-- next.js首屏服务端渲染，在客户端的页面跳转都是客户端渲染
+
+2. next.js框架实现了热更新
+
+3. 服务端代码和客户端代码分离，发出请求用的同一套代码
+
+4. rematch数据流管理
+
+5. 配置相关的也会存到全局model里，开放全局配置加载接口&局部配置加载接口
+
+6. 资源缓存，生产资源加载配置到cdn，脚本可实现自动上次资源到aliyun
+   --打包生成的js资源
+   --static资源
+
+7. css写法：用less
+
+8. apidoc生成文档
+
+9. log4js日志
+
+
 </div>
 
 - next：http://preview.pro.ant.design
