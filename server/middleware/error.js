@@ -14,7 +14,7 @@ module.exports = () => {
             }
             ctx.logger.error('[[[catch error]]] >>> ', errorDesc);
 
-            if (url.indexOf('/ui-api/') === -1) {
+            if (url.indexOf('/api/') === -1) {
                 if (errorDesc.indexOf("11004") >= 0) {
                     await ctx.render('_common/exception-login.ejs', {
                         title: '登录异常',

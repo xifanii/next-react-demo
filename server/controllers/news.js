@@ -6,13 +6,13 @@ module.exports = {
 
     /**
      * 
-     * @api {get} /ui-api/news/getArticleList 拉取文章列表
+     * @api {get} /api/news/getArticleList 拉取文章列表
      * @apiName getArticleList
      * @apiGroup News
      * @apiVersion  0.1.0
      * 
      * @apiExample {curl} 请求例子
-     * curl --header 'Content-type:application/json' --header 'token:3CeFHNnEN15Vqs5z2thmXJop-nV4Wyz2HAtKxtAb3A27p2VL1OHy_3VHceIb5-ae2rbFC7C6_l1aPFC5vFEdHW==' 'http://mobile.wmzy.com/ui-api/news/getArticleList?article_type=2'
+     * curl --header 'Content-type:application/json' --header 'token:3CeFHNnEN15Vqs5z2thmXJop-nV4Wyz2HAtKxtAb3A27p2VL1OHy_3VHceIb5-ae2rbFC7C6_l1aPFC5vFEdHW==' 'http://mobile.wmzy.com/api/news/getArticleList?article_type=2'
      * 
      * @apiExample {curl} 后台java请求例子
      * curl --header 'Content-type:application/json' http://192.168.150.18:33200/article/getList' -d '{"province_id":"430000000000","article_type":"2","page":1,"page_len":10,"req_id":"ui-common-bfa8-ec1dc58312ab_0_1562749124000_::1"}'

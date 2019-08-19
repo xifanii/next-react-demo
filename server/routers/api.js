@@ -10,7 +10,7 @@
 const router = require('koa-router')();
 const controllers = require('../controllers');
 
-router.prefix('/ui-api');
+router.prefix('/api');
 
 /*
     获取params,挂载到ctx.apiParams

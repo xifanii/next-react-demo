@@ -14,7 +14,7 @@ const defaultOptions = {
 };
 
 const instance = axios.create({
-    baseURL: '/ui-api',
+    baseURL: '/api',
     headers: defaultOptions.headers,
 });
 
